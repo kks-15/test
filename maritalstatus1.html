@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Main HTML File</title>
+</head>
+<script type="text/javascript">
+var doc=document;
+var maritalStatus=doc.getElementById('mstatus');
+var heading=doc.createElement("h1");
+heading.innerText ="Choose your Marital Status";
+mainHeading=doc.getElementById("title");
+maritalStatus.replaceChild(mainHeading,heading);
+</script>
+<body>
+	<div id="mstatus">
+		<h1 id="title">Choose your Marital Status</h1>
+		<form>
+			<input type="radio" name="maritalstatus" id="single" class=""  value="1" /><label for="single">Single</label>
+			<input type="radio" name="maritalstatus" id="married" class="" value="2" /><label for="married">Married</label>
+			<input type="radio" name="maritalstatus" id="noshare" class="" value="3" /><label for="noshare">Don't share</label>
+		</form>
+	</div>
+</body>
+</html>
