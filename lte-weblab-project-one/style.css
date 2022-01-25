@@ -1,0 +1,50 @@
+body{
+/*  background-color: antiquewhite;*/
+  background-image: url("cake-one.jpg");
+  background-size: cover;
+}
+h1{
+  color: darkgreen;
+  font-family: fantasy;
+  letter-spacing: 4px;
+  text-align: center;
+  text-decoration: underline overline dotted;
+}
+
+p{
+  color: darkgoldenrod;
+  font-size: 17px;
+  font-family: cursive;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+h2{
+  color: darkgreen;
+  font-family: monospace;
+  font-size: 25px;
+  text-decoration: underline wavy darkgoldenrod;
+}
+
+h6{
+  color: chocolate;
+  background-color: azure;
+}
+
+a{
+  color: darkcyan;
+}
+
+img{
+  width: 300px;
+  float: left;
+  margin: 10px 20px 10px 10px;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: grey;
+  border-radius: 20px;
+}
+
+hr{
+  clear: both;
+}
